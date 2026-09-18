@@ -1,0 +1,8 @@
+﻿version: 0.15.4
+files:
+  - url: Automeo-Setup-0.15.4.exe
+    sha512: b4bacc62fa1587d17f1c452c0207a9a71fe01f7a6a5a341200545bab407c9bcfaf73e37ed5c47c71abbd073f1b6be152abcddb663ccd1178cd81bde570f39405
+    size: 128484603
+path: Automeo-Setup-0.15.4.exe
+sha512: b4bacc62fa1587d17f1c452c0207a9a71fe01f7a6a5a341200545bab407c9bcfaf73e37ed5c47c71abbd073f1b6be152abcddb663ccd1178cd81bde570f39405
+releaseDate: "2026-09-18T10:23:30.301Z"
