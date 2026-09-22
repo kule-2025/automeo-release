@@ -4,7 +4,7 @@ Automeo 全自动经营管理系统 桌面客户端安装包发布仓库
 
 ## 当前版本
 
-**v0.16.16**（2026-09-22）
+**v0.16.17**（2026-09-22）
 
 ## 下载
 
@@ -12,21 +12,22 @@ Automeo 全自动经营管理系统 桌面客户端安装包发布仓库
 
 | 文件 | 大小 | 说明 |
 |---|---|---|
-| Automeo-Setup-0.16.16.exe | 122.8 MB | Windows 安装程序（单文件） |
-| Automeo-Setup-0.16.16.exe.blockmap | 0.12 MB | electron-updater 增量更新块映射 |
+| Automeo-Setup-0.16.17.exe | 124.4 MB | Windows 安装程序（单文件） |
+| Automeo-Setup-0.16.17.exe.blockmap | 0.12 MB | electron-updater 增量更新块映射 |
 | latest.yml | 小文件 | 自动更新版本检查文件 |
 
 国内镜像请访问 [Gitee Release](https://gitee.com/king2030/automeo-release/releases)。
 
-## v0.16.16 更新内容
+## v0.16.17 更新内容
 
-- V5 桌面图标修复：exe 内嵌 V5 三色渐变品牌图标
-- 提示词增强对齐 workbuddy：五维度结构化增强（角色设定/任务拆解/约束条件/输出格式/示例引导）
-- 对话助手排版修复：4 处布局优化（flex 约束/滚动收敛/标题截断/气泡宽度）
+- 提示词增强大弹窗移除，改为直接输入框覆盖 + 内联状态条（EnhancedChatInput + ChatAssistantPage 两处同步改造）
+- 工具栏10个原创SVG图标（AutomeoIcons.tsx），去除第三方图标依赖
+- 更新源切换Gitee国内镜像（updater.ts + electron-builder.yml），错误提示改toast卡片
+- 后端端口占用自动降级（EADDRINUSE清理，3000/3001/3002自动探测）
 
 ## 安装说明
 
-1. 下载 Automeo-Setup-0.16.16.exe
+1. 下载 Automeo-Setup-0.16.17.exe
 2. 双击运行安装程序
 3. 选择安装目录（默认即可）
 4. 点击安装，等待完成
