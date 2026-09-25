@@ -2,7 +2,7 @@
 
 全自动经营管理系统，从商机发现到财务结算的全链路自动化经营平台。面向外包与远程工作场景，内置 AI 能力，自动完成获客、跟进、报价、项目交付、成本核算与经营分析。
 
-当前版本：**v0.16.17**
+当前版本：**v0.17.0**
 
 ## 主要能力
 
@@ -47,16 +47,22 @@ AI 主动工作与任务执行：
 
 | 文件 | 说明 |
 |------|------|
-| Automeo-Setup-0.16.17.exe | Windows 安装程序 |
+| Automeo-Setup-0.17.0.exe | Windows 安装程序（GitHub 单文件直传） |
+| Automeo-Setup-0.17.0.exe.part1 / part2 | Gitee 分卷安装包（国内镜像，见下方合并方法） |
 | latest.yml | 自动更新版本检查文件 |
+| Automeo-Setup-0.17.0.exe.blockmap | 增量更新块映射 |
 
 ## 安装说明
 
-1. 下载 Automeo-Setup-0.16.17.exe
-2. 双击运行安装程序
-3. 选择安装目录（默认即可）
-4. 点击安装，等待完成
-5. 安装完成后自动启动
+GitHub 用户：下载 Automeo-Setup-0.17.0.exe 后双击运行，选择安装目录，等待完成即可。
+
+Gitee 国内镜像用户：分卷下载 part1 与 part2 后，在同一目录执行以下命令合并为完整安装包：
+
+```
+copy /b Automeo-Setup-0.17.0.exe.part1 + Automeo-Setup-0.17.0.exe.part2 Automeo-Setup-0.17.0.exe
+```
+
+合并后双击 Automeo-Setup-0.17.0.exe 运行安装。
 
 ## 自动更新
 
