@@ -1,79 +1,18 @@
-# Automeo
+# Automeo Release
 
-全自动经营管理系统，从商机发现到财务结算的全链路自动化经营平台。面向外包与远程工作场景，内置 AI 能力，自动完成获客、跟进、报价、项目交付、成本核算与经营分析。
+## 当前版本：v0.18.2
 
-当前版本：**v0.17.0**
+### 下载安装包
 
-## 主要能力
+安装包（约 124MB）托管在 GitHub Release：
 
-获客与销售自动化：
+- **GitHub Release**: https://github.com/kule-2025/automeo-release/releases/latest
+- **直接下载**: https://github.com/kule-2025/automeo-release/releases/latest/download/Automeo-Setup-0.18.2.exe
 
-- 智能商机引擎：多渠道公开商机真实采集，AI 线索评分，自动 A/B/C 分级，一键转商机
-- 智能客户跟进：跟进任务自动创建，AI 生成邮件/微信/电话话术，跟进记录沉淀，超期自动提醒
-- 智能报价引擎：历史报价分析，AI 报价建议，成本自动核算，报价模板库
-- 线索管道：GitHub/Gitee 开源项目双源采集，支持 Token 加密存储配置，线索评分，一键转商机
-- 多源招投标监控：中央政府采购网与广东公共资源交易多源监控，地域过滤，预算与联系人提取
+### 自动更新
 
-项目与交付自动化：
+应用内置无感更新，启动时自动检测最新版本。
 
-- AI 项目管家：项目自动拆解，风险自动识别，健康度评分，自动催办与周报生成
-- 全自动工作流：商机转化、项目交付、客户跟进、财务结算 4 类预置模板，AI 节点自动执行与审批流自动化
+### latest.yml
 
-财务与经营分析：
-
-- 成本控制中心：预算版本管理与审批，实时成本核算，利润分析，亏损预警，ROI 分析
-- 经营决策看板：实时指标，趋势分析，AI 下月预测，智能建议，风险扫描，经营健康度
-
-AI 主动工作与任务执行：
-
-- AI Agent 主动工作：定时巡检，异常主动告警，主动优化建议，四级权限分级
-- AI 任务执行中心：文案、翻译、市场调研、平面设计、PPT 生成五类任务的 AI 交付
-- 联网搜索：双引擎联网搜索，AI 可自动调用
-
-桌面端体验：
-
-- 桌面客户端一键安装，内置自动更新
-- 对话式助手，提示词增强内联辅助
-- AI 绘图：内置绘图 API 配置中心，支持多家绘图模型与自定义兼容接口，密钥加密存储
-
-## 下载
-
-前往 Releases 页面下载最新 Windows 安装包：
-
-- GitHub Releases：https://github.com/kule-2025/automeo-release/releases
-- Gitee 国内镜像：https://gitee.com/king2030/automeo-release/releases
-
-文件说明：
-
-| 文件 | 说明 |
-|------|------|
-| Automeo-Setup-0.17.0.exe | Windows 安装程序（GitHub 单文件直传） |
-| Automeo-Setup-0.17.0.exe.part1 / part2 | Gitee 分卷安装包（国内镜像，见下方合并方法） |
-| latest.yml | 自动更新版本检查文件 |
-| Automeo-Setup-0.17.0.exe.blockmap | 增量更新块映射 |
-
-## 安装说明
-
-GitHub 用户：下载 Automeo-Setup-0.17.0.exe 后双击运行，选择安装目录，等待完成即可。
-
-Gitee 国内镜像用户：分卷下载 part1 与 part2 后，在同一目录执行以下命令合并为完整安装包：
-
-```
-copy /b Automeo-Setup-0.17.0.exe.part1 + Automeo-Setup-0.17.0.exe.part2 Automeo-Setup-0.17.0.exe
-```
-
-合并后双击 Automeo-Setup-0.17.0.exe 运行安装。
-
-## 自动更新
-
-应用内置自动更新功能，检测到新版本后在后台自动下载，重启时自动安装。国内网络自动走 Gitee 镜像源。
-
-## 系统要求
-
-- Windows 10/11（64 位）
-- 至少 2GB 可用磁盘空间
-- 网络连接（首次启动需初始化）
-
-## 说明
-
-本仓库仅提供桌面客户端安装包与更新说明，不包含源代码。
+本仓库的 latest.yml 为版本信息文件，供 electron-updater 检测更新使用。
