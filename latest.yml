@@ -1,8 +1,8 @@
-version: 0.18.3
+version: 0.18.4
 files:
-  - url: Automeo-Setup-0.18.3.exe
-    sha512: F6IB52ZGsdQb0iKsay/NypjAQ61cgg0+buZVaJAHjVioSleUOpJcCx7Q4kdXXGnO4/Q2jYjNXg0AihbzngwndA==
-    size: 131042864
-path: Automeo-Setup-0.18.3.exe
-sha512: F6IB52ZGsdQb0iKsay/NypjAQ61cgg0+buZVaJAHjVioSleUOpJcCx7Q4kdXXGnO4/Q2jYjNXg0AihbzngwndA==
-releaseDate: '2026-09-27T01:23:09.020Z'
+  - url: https://github.com/kule-2025/automeo-release/releases/download/v0.18.4/Automeo-Setup-0.18.4.exe
+    sha512: tOZaUKsDlcjXqC4GavqD3N8wDagjnWNFtrDMk/dScMef9i2cvBCkAZfdVd3HMJU09eZ7DhdpGsKUVgyCGnR6YA==
+    size: 131043052
+path: Automeo-Setup-0.18.4.exe
+sha512: tOZaUKsDlcjXqC4GavqD3N8wDagjnWNFtrDMk/dScMef9i2cvBCkAZfdVd3HMJU09eZ7DhdpGsKUVgyCGnR6YA==
+releaseDate: '2026-09-27T02:15:46.385Z'
