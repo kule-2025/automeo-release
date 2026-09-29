@@ -1,13 +1,13 @@
 # Automeo Release
 
-## 当前版本：v0.18.2
+## 当前版本：v0.20.0
 
 ### 下载安装包
 
 安装包（约 124MB）托管在 GitHub Release：
 
 - **GitHub Release**: https://github.com/kule-2025/automeo-release/releases/latest
-- **直接下载**: https://github.com/kule-2025/automeo-release/releases/latest/download/Automeo-Setup-0.18.2.exe
+- **直接下载**: https://github.com/kule-2025/automeo-release/releases/latest/download/Automeo-Setup-0.20.0.exe
 
 ### 自动更新
 
