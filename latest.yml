@@ -1,8 +1,8 @@
-﻿version: 0.19.1
+version: 0.20.0
 files:
-  - url: https://github.com/kule-2025/automeo-release/releases/download/v0.19.1/Automeo-Setup-0.19.1.exe
-    sha512: /a1S8HuPAAYrfN+aV0fC4ofoBbcHQ4mbb+GSJMlBAU0zkPt+s+hiXwEd8Si2WmXwi5SRRu3Jun2s5s2QwOJuyw==
-    size: 132354669
-path: Automeo-Setup-0.19.1.exe
-sha512: /a1S8HuPAAYrfN+aV0fC4ofoBbcHQ4mbb+GSJMlBAU0zkPt+s+hiXwEd8Si2WmXwi5SRRu3Jun2s5s2QwOJuyw==
-releaseDate: '2026-09-27T07:03:08.123Z'
+  - url: Automeo-Setup-0.20.0.exe
+    sha512: 0royiQ09uecKELnqC0I2DIMarURkt82NrMsyyfLQw7X/J37/BWv+Jhl+1jyM8CUb+eRSutOAMds/Kvgr19fB4Q==
+    size: 132989544
+path: Automeo-Setup-0.20.0.exe
+sha512: 0royiQ09uecKELnqC0I2DIMarURkt82NrMsyyfLQw7X/J37/BWv+Jhl+1jyM8CUb+eRSutOAMds/Kvgr19fB4Q==
+releaseDate: '2026-09-29T02:23:03.358Z'
