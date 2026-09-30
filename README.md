@@ -1,18 +1,33 @@
-# Automeo Release
+# Automeo - 全自动经营管理系统
 
-## 当前版本：v0.20.0
+> 从商机发现到财务结算，一个人就能跑完整个生意
 
-### 下载安装包
+## 产品简介
+
+Automeo 是面向外包团队与自由开发者的全自动经营管理系统，把获客、沟通、交付、收款整条链路交给 AI 自动执行，让经营者从重复琐碎的运营工作中解放出来，专注于真正创造价值的部分。
+
+## 解决的核心痛点
+
+- **获客难**：每天手动刷平台、筛商机、写开发信，耗时且转化率低
+- **交付慢**：需求拆解、编码、测试、打包反复切换工具，项目周期失控
+- **算账乱**：收款、成本、消耗分散记录，盈亏算不清、预算常超支
+
+## 核心价值
+
+- **自动发现并筛选高价值商机，主动触达客户**
+- **AI 解析需求、自动编码、质量自检、一键打包交付**
+- **财务结算与成本核算实时闭环，预算超支自动熔断**
+- **数字化员工 7×24 小时执行经营任务，经营结果持续自我进化**
+
+## 下载安装
+
+当前版本：**v0.20.0**
 
 安装包（约 124MB）托管在 GitHub Release：
 
-- **GitHub Release**: https://github.com/kule-2025/automeo-release/releases/latest
-- **直接下载**: https://github.com/kule-2025/automeo-release/releases/latest/download/Automeo-Setup-0.20.0.exe
-
-### 自动更新
+- **GitHub Release**：https://github.com/kule-2025/automeo-release/releases/latest
+- **直接下载**：https://github.com/kule-2025/automeo-release/releases/latest/download/Automeo-Setup-0.20.0.exe
 
 应用内置无感更新，启动时自动检测最新版本。
 
-### latest.yml
-
-本仓库的 latest.yml 为版本信息文件，供 electron-updater 检测更新使用。
+本仓库的 `latest.yml` 为版本信息文件，供应用自动更新检测使用。
